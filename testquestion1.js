@@ -3,7 +3,6 @@ let balls;
 function setup() {
     createCanvas(600, 400);
 }
-
 function draw() {
     background(150);
     if(mouse.presses()) {
@@ -11,7 +10,6 @@ function draw() {
         fill(random(0, 255),random(0, 255),random(0, 255));
         balls = "dynamic";
         world.gravity.y = 5
-        
     }
 
 }
